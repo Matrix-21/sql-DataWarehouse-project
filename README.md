@@ -14,7 +14,7 @@ A full-cycle Data Engineering and Analytics portfolio project showcasing the des
 🧱 Data Architecture: Medallion Pattern
 
 This project implements the Medallion Architecture with three progressive layers:
-![Data Architecture](docs/architecture.png)
+![Data Architecture](docs/data_architecture(Layers).png)
 Layer	Purpose	Contents
 🥉 Bronze	Raw staging layer	Data loaded directly from ERP/CRM CSVs
 🥈 Silver	Cleansed & transformed	Standardized, typed, deduplicated tables
