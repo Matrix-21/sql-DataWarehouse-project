@@ -24,8 +24,7 @@ This project implements the **Medallion Architecture** with three progressive la
 | 🥈 Silver | Cleaned data layer   | Standardized, deduplicated tables      |
 | 🥇 Gold   | Business-ready layer | Fact & dimension views in star schema |
 
-![Data Architecture](docs/Data%20Architecture%28Layers%29.png)
-
+![Data Architecture](docs/Data_architecture.png)
 ---
 
 ## 📘 Project Modules
@@ -83,3 +82,34 @@ Robust quality checks are implemented in both silver and gold layers:
 
 ## 📂 Repository Structure
 
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── Data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── Data_flow_diagram.drawio        # Draw.io file for the data flow diagram
+│   ├── data_model.drawio               # Draw.io file for data models (star schema)
+│   ├── data_integration_model.draw.io  # Draw.io file for data integration model
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
+
+
+## 🧠 What I Learned
+
+  -End-to-end design of a modern SQL-based data warehouse
+  -Applying Medallion architecture to real-world scenarios
+  -Writing reusable, production-level SQL stored procedures
+  -Building audit-friendly ETL pipelines using timestamps and quality checks
+  -Documenting and structuring data projects for team handoff or GitHub showcasing
