@@ -82,8 +82,8 @@ Robust quality checks are implemented in both silver and gold layers:
 
 ## 🧠 What I Learned
 
-  -End-to-end design of a modern SQL-based data warehouse
-  -Applying Medallion architecture to real-world scenarios
-  -Writing reusable, production-level SQL stored procedures
-  -Building audit-friendly ETL pipelines using timestamps and quality checks
-  -Documenting and structuring data projects for team handoff or GitHub showcasing
+  - End-to-end design of a modern SQL-based data warehouse
+  - Applying Medallion architecture to real-world scenarios
+  - Writing reusable, production-level SQL stored procedures
+  - Building audit-friendly ETL pipelines using timestamps and quality checks
+  - Documenting and structuring data projects for team handoff or GitHub showcasing
